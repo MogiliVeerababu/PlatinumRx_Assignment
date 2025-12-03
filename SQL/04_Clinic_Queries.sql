@@ -62,6 +62,7 @@ FROM (
 WHERE rn = 1;
 
 
+
 -- B.5 Second least profitable clinic per state
 WITH profit AS (
   SELECT c.state, c.cid,
